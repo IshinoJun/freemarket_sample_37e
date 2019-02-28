@@ -20,7 +20,7 @@ class ItemsController < ApplicationController
         card:    params['payjp-token'],
         currency: 'jpy',
       )
-      @item.update!(buyer_id: 1)
+      #@item.update!(buyer_id: 1)
     end
   end
 
